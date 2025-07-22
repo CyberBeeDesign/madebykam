@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/Logo.png";
 import LinkedInIcon from "../../assets/linkedin.png";
 import GitHubIcon from "../../assets/github.png";
 import dribbbleIcon from "../../assets/dribbble.png";
-import LinkedInWhite from "../../assets/linkedin(W).png";
-import GitHubWhite from "../../assets/github(W).png";
-import dribbbleWhite from "../../assets/dribbble(W).png";
 
 const menuConfig = {
   "/": [
