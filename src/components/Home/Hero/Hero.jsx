@@ -4,7 +4,7 @@ import PortraitimgBW from '../../../assets/Portrait(BW).png';
 import PortraitHover from '../../../assets/Portrait.png';
 import EllipseBlue from '../../../assets/Ellipseblue.png';
 import EllipseYellow from '../../../assets/EllipseYellow.png';
-import EllipseGrey from '../../../assets/ELlipseGrey.png'
+import EllipseGrey from '../../../assets/EllipseGrey.png'
 import UnionBlue from '../../../assets/UnionBlue.png';
 import UnionGrey from '../../../assets/UnionGrey.png';
 import UnionYellow from '../../../assets/UnionYellow.png';
