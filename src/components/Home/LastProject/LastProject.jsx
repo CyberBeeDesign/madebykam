@@ -1,7 +1,7 @@
 import React from "react";
 import cinefyMockup from "../../../assets/Cinefy-Mockup.png";
-import jammmingMockup from "../../../assets/Jammming-mockup.png";
-import coffeebeanMockup from "../../../assets/Coffeebean-mockup.png";
+import jammmingMockup from "../../../assets/Jammming-Mockup.png";
+import coffeebeanMockup from "../../../assets/Coffeebean-Mockup.png";
 import arrowmore from "../../../assets/arrow-more.png";
 import "./LastProject.css";
 
