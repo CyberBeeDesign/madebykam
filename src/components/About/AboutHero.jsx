@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import DesignImg from '../../assets/Design-img.png'
 import CodeImg from '../../assets/Coding-img.png'
-import Portrait from '../../assets/Portrait(LS).png'
+import Portrait from '../../assets/PortraitLS.png'
 import './AboutHero.css'
 
 const AboutHero = () => {

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import './Hero.css';
-import PortraitimgBW from '../../../assets/Portrait(BW).png';
+import PortraitimgBW from '../../../assets/PortraitBW.png';
 import PortraitHover from '../../../assets/Portrait.png';
 import EllipseBlue from '../../../assets/Ellipseblue.png';
 import EllipseYellow from '../../../assets/EllipseYellow.png';
