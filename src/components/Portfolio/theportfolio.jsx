@@ -2,7 +2,7 @@ import React from "react";
 import arrowmore from "../../assets/arrow-more.png";
 import cinefyMockup from "../../assets/Cinefy-Mockup.png";
 import jammmingMockup from "../../assets/Jammming-Mockup.png";
-import coffeeBeanMockup from "../../assets/Coffeebean-Mockup.png";
+import coffeeBeanMockup from "../../assets/CoffeeBean-Mockup.png";
 import boxermockup from "../../assets/Boxer-Mockup.png";
 import ontheroadmockup from "../../assets/Ontheroad-Mockup.png";
 import micasamockup from "../../assets/Micasa-Mockup.png";
