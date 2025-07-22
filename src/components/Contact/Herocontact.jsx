@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Contactimg from "../../assets/Contact-img.png";
-import Ellipseblue from "../../assets/EllipseBlue.png";
+import Ellipseblue from "../../assets/Ellipseblue.png";
 import EllipseYellow from "../../assets/EllipseYellow.png";
 import UnionBlue from "../../assets/UnionBlue.png";
 import UnionGrey from "../../assets/UnionGrey.png";
