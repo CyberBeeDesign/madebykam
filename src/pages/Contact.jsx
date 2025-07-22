@@ -1,5 +1,5 @@
 import React from 'react'
-import Herocontact from '../components/Contact/HeroContact'
+import Herocontact from '../components/Contact/Herocontact'
 import Contactform from '../components/Contact/Contactform'
 
 
