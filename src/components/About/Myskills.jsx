@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Lottie from "lottie-react";
-import skillGraphAnimation from "../../assets/skill-graph.json";
+import skillGraphAnimation from "../../assets/Skill-graph.json";
 import './Myskills.css'
 
 const Myskills = () => {
