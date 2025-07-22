@@ -1,0 +1,147 @@
+.contact-form {
+    background-color: white;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+form {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.top-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.form-left,
+.form-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.form-right textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.form-left input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.contact-form button {
+    background-color: #0D43FF;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: #545456 5px 5px 20px -10px;
+    transition: ease-in-out 0.5s;
+}
+
+.contact-form button:hover {
+    transform: scale(1.05);
+    border: 2px solid #0D43FF;
+    background-color: transparent;
+    color: #0D43FF;
+}
+
+.contact-form label {
+    color: #545456;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact-form {
+        padding: 70px 0;
+    }
+
+    form {
+        max-width: 700px;
+        width: calc(100% - 60px);
+        margin: 0 2rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .form-right textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        flex: 1;
+    }
+
+    form label {
+        font-size: 0.874rem;
+        line-height: 1.5rem;
+    }
+
+    button {
+        font-size: 0.874rem;
+        line-height: 1.5rem;
+    }
+
+    .form-right textarea {
+        font-size: 0.874rem;
+        line-height: 1.5rem;
+    }
+
+    .form-left input {
+        font-size: 0.874rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .contact-form {
+        padding: 50px 0;
+    }
+
+    form {
+        max-width: 440px;
+        width: calc(100% - 30px);
+        margin: 0 1rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        height: auto;
+    }
+
+    form label {
+        font-size: 0.8125rem;
+        line-height: 1.25rem;
+    }
+
+    button {
+        font-size: 0.8125rem;
+        line-height: 1.25rem;
+    }
+
+    .form-right textarea {
+        font-size: 0.8125rem;
+        line-height: 1.25rem;
+    }
+
+    .form-left input {
+        font-size: 0.8125rem;
+        line-height: 1.25rem;
+    }
+}

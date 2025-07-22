@@ -1,0 +1,143 @@
+.lastproject-container {
+    background-color: white;
+}
+
+.lastproject {
+    display: flex;
+    max-width: 1160px;
+    flex-direction: column;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.lastproject h2 {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    margin-bottom: 1.875rem;
+    letter-spacing: 2%;
+    color: #545456;
+    text-align: center;
+}
+
+.lastprojectcard-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.lastprojectcard {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: calc((100% - 40px) / 3);
+    border-radius: 20px;
+    box-shadow: #545456 5px 5px 20px -10px;
+    transition: ease-in-out 0.5s;
+}
+
+.lastprojectcard:hover {
+    transform: scale(1.05);
+}
+
+.Mockup {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.lastproject-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lastproject-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lastproject-text h3 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FFC00D;
+    margin: 0;
+}
+
+.lastproject-text p {
+    font-size: 1rem;
+    color: #545456;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.arrow-more {
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.lastprojectcard:hover .arrow-more {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .lastproject {
+        max-width: 700px;
+        padding: 3.125rem 1.25rem;
+    }
+
+    .lastprojectcard-box {
+        gap: 10px;
+    }
+
+    .lastproject h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .lastproject-text h3 {
+        font-size: 1.125rem;
+    }
+
+    .lastproject-text p {
+        font-size: 0.874rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .lastproject {
+        max-width: 440px;
+        margin: 0 1rem;
+    }
+
+    .lastprojectcard-box {
+        flex-direction: column;
+        align-content: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .lastprojectcard {
+        max-width: 80%;
+    }
+
+    .lastproject h2 {
+        margin-bottom: 1.25rem;
+    }
+}

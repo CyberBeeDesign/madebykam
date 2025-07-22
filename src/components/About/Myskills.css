@@ -1,0 +1,32 @@
+.myskills-container {
+  background-color: white;
+  padding: 100px 0;
+}
+
+.myskills-block {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1160px;
+  gap: 30px;
+}
+
+.myskills-block img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .myskills-container {
+    padding: 70px 0;
+  }
+
+  .myskills-block {
+    max-width: 700px;
+    width: calc(100% - 60px);
+    margin: 0 1.25rem;
+  }
+
+}

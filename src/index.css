@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/Metropolis-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/Metropolis-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/Metropolis-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: semibold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Metropolis', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+html, body {
+    width: 100%;
+    background-color: #E6DCC8;
+    overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #545456;
+  letter-spacing: -0.1875rem;
+  line-height: 5rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.875rem;
+    letter-spacing: 2%;
+    color: #545456;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #545456;
+}
+
+p {
+  font-size: 1rem;
+  color: #545456;
+  line-height: 1.875rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+  h3 {
+        font-size: 1.125rem;
+        line-height: 1.5625rem;
+    }
+
+  p {
+    font-size: 0.874rem;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  
+  h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+   h3 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+  p {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }
+
+}

@@ -1,0 +1,35 @@
+.designcode-container {
+  display: flex;
+  margin: 100px auto;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 1160px;
+}
+
+.designcode-container img {
+  width: 40%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .designcode-container {
+    max-width: 700px;
+    width: calc(100% - 60px);
+    margin: 0 2rem;
+    padding: 70px 0;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .designcode-container img {
+    width: 50%;
+  }
+
+  .designcode-container h2 {
+    font-size: 1.5625rem;
+    line-height: 3rem;
+  }
+}
