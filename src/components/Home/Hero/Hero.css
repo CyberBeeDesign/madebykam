@@ -159,6 +159,7 @@
         left: 50%;
         top: 60%;
         height: 80%;
+        z-index: 1000;
     }
 
     .ellipse-yellow {
