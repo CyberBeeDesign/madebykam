@@ -7,6 +7,7 @@ import boxermockup from "../../assets/Boxer-Mockup.png";
 import ontheroadmockup from "../../assets/Ontheroad-Mockup.png";
 import micasamockup from "../../assets/Micasa-Mockup.png";
 import aromamockup from "../../assets/Aroma-Mockup.png";
+import planpinMockup from "../../assets/PlanPin-Mockup.png";
 
 import "./theportfolio.css";
 
@@ -14,6 +15,23 @@ const theportfolio = () => {
   return (
     <div className="portfolio-container">
       <div className="portfolio">
+        <div className="porfoliocard">
+          <a
+            href="https://planpin.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={planpinMockup} alt="planpin-mockup" className="Mockup" />
+            <div className="portfolio-text-container">
+              <div className="portfolio-text">
+                <h3>PlanPin</h3>
+                <p>Design & development</p>
+              </div>
+              <img src={arrowmore} alt="" className="arrow-more" />
+            </div>
+          </a>
+        </div>
+
         <div className="porfoliocard">
           <a
             href="https://cinefy-cyberbee.netlify.app/"

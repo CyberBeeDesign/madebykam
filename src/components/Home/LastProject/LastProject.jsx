@@ -3,6 +3,7 @@ import cinefyMockup from "../../../assets/Cinefy-Mockup.png";
 import jammmingMockup from "../../../assets/Jammming-Mockup.png";
 import coffeebeanMockup from "../../../assets/CoffeeBean-Mockup.png";
 import arrowmore from "../../../assets/arrow-more.png";
+import planpinMockup from "../../../assets/PlanPin-Mockup.png";
 import "./LastProject.css";
 
 const LastProject = () => {
@@ -10,7 +11,28 @@ const LastProject = () => {
     <div className="lastproject-container">
       <div className="lastproject">
         <h2>My last projects</h2>
+
         <div className="lastprojectcard-box">
+          <div className="lastprojectcard">
+            <a
+              href="https://planpin.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={planpinMockup}
+                alt="planpin-mockup"
+                className="Mockup"
+              />
+              <div className="lastproject-text-container">
+                <div className="lastproject-text">
+                  <h3>PlanPin</h3>
+                  <p>Website design</p>
+                </div>
+                <img src={arrowmore} alt="" className="arrow-more" />
+              </div>
+            </a>
+          </div>
           <div className="lastprojectcard">
             <a
               href="https://cinefy-cyberbee.netlify.app/"
@@ -49,7 +71,7 @@ const LastProject = () => {
             </a>
           </div>
 
-          <div className="lastprojectcard">
+          {/*<div className="lastprojectcard">
             <a
               href="https://cb-coffeebean.netlify.app/"
               target="_blank"
@@ -68,7 +90,7 @@ const LastProject = () => {
                 <img src={arrowmore} alt="" className="arrow-more" />
               </div>
             </a>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
