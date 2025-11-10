@@ -8,7 +8,7 @@ import ontheroadmockup from "../../assets/Ontheroad-Mockup.png";
 import micasamockup from "../../assets/Micasa-Mockup.png";
 import aromamockup from "../../assets/Aroma-Mockup.png";
 import planpinMockup from "../../assets/PlanPin-Mockup.png";
-import confTicketsGeneratorMockup from "../../../assets/conf-tickets-generator-Mockup.png";
+import confTicketsGeneratorMockup from "../../assets/conf-tickets-generator-Mockup.png";
 
 import "./theportfolio.css";
 
