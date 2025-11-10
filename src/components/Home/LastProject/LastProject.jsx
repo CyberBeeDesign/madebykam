@@ -1,8 +1,8 @@
 import React from "react";
-import cinefyMockup from "../../../assets/Cinefy-Mockup.png";
-import confTicketMockup from "../../../assets/conf-tickets-generator-Mockup.png";
+import cinefymockup from "../../../assets/Cinefy-Mockup.png";
+import confticketmockup from "../../../assets/conf-tickets-generator-Mockup.png";
 import arrowmore from "../../../assets/arrow-more.png";
-import planpinMockup from "../../../assets/PlanPin-Mockup.png";
+import planpinmockup from "../../../assets/PlanPin-Mockup.png";
 import "./LastProject.css";
 
 const LastProject = () => {
@@ -18,7 +18,7 @@ const LastProject = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={confTicketMockup}
+              src={confticketmockup}
               alt="confTicket-mockup"
               className="Mockup"
             />
@@ -40,7 +40,7 @@ const LastProject = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={planpinMockup}
+                src={planpinmockup}
                 alt="planpin-mockup"
                 className="Mockup"
               />
@@ -60,7 +60,7 @@ const LastProject = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={cinefyMockup} alt="cinefy-mockup" className="Mockup" />
+              <img src={cinefymockup} alt="cinefy-mockup" className="Mockup" />
               <div className="lastproject-text-container">
                 <div className="lastproject-text">
                   <h3>Cinefy</h3>
