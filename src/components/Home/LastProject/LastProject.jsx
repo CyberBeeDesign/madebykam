@@ -28,7 +28,12 @@ const LastProject = () => {
               <div className="lastproject-text-container">
                 <div className="lastproject-text">
                   <h3>Conference ticket generator</h3>
-                  <p>Website design</p>
+                  <div className="techno">
+                    <span id="html">HTML</span>
+                    <span id="css">CSS</span>
+                    <span id="javascript">JS</span>
+                  </div>
+                  <p>In this project, I’ll build a web application that create a personalized ticket for “Coding Conf 2025.” The user is able to upload his avatar, enter his name, email, and GitHub username, and instantly generate a visually styled ticket with a unique ticket number.</p>
                 </div>
                 <img src={arrowmore} alt="" className="arrow-more" />
               </div>
