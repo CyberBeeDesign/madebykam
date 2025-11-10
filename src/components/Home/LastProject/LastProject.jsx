@@ -1,8 +1,9 @@
 import React from "react";
-import cinefymockup from "../../../assets/Cinefy-Mockup.png";
-import confticketmockup from "../../../assets/conf-tickets-generator-Mockup.png";
+import cinefyMockup from "../../../assets/Cinefy-Mockup.png";
+import jammmingMockup from "../../../assets/Jammming-Mockup.png";
+import coffeebeanMockup from "../../../assets/CoffeeBean-Mockup.png";
 import arrowmore from "../../../assets/arrow-more.png";
-import planpinmockup from "../../../assets/PlanPin-Mockup.png";
+import planpinMockup from "../../../assets/PlanPin-Mockup.png";
 import "./LastProject.css";
 
 const LastProject = () => {
@@ -10,27 +11,6 @@ const LastProject = () => {
     <div className="lastproject-container">
       <div className="lastproject">
         <h2>My last projects</h2>
-
-        <div className="lastprojectcard">
-          <a
-            href="https://conf-tickets-generator.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={confticketmockup}
-              alt="confTicket-mockup"
-              className="Mockup"
-            />
-            <div className="lastproject-text-container">
-              <div className="lastproject-text">
-                <h3>Conference ticket generator</h3>
-                <p>Side project</p>
-              </div>
-              <img src={arrowmore} alt="" className="arrow-more" />
-            </div>
-          </a>
-        </div>
 
         <div className="lastprojectcard-box">
           <div className="lastprojectcard">
@@ -40,7 +20,7 @@ const LastProject = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={planpinmockup}
+                src={planpinMockup}
                 alt="planpin-mockup"
                 className="Mockup"
               />
@@ -53,18 +33,38 @@ const LastProject = () => {
               </div>
             </a>
           </div>
-
           <div className="lastprojectcard">
             <a
               href="https://cinefy-cyberbee.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={cinefymockup} alt="cinefy-mockup" className="Mockup" />
+              <img src={cinefyMockup} alt="cinefy-mockup" className="Mockup" />
               <div className="lastproject-text-container">
                 <div className="lastproject-text">
                   <h3>Cinefy</h3>
                   <p>Website design</p>
+                </div>
+                <img src={arrowmore} alt="" className="arrow-more" />
+              </div>
+            </a>
+          </div>
+
+          <div className="lastprojectcard">
+            <a
+              href="https://jammming-cyberbee.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={jammmingMockup}
+                alt="jammming-mockup"
+                className="Mockup"
+              />
+              <div className="lastproject-text-container">
+                <div className="lastproject-text">
+                  <h3>Jammming</h3>
+                  <p>Side project</p>
                 </div>
                 <img src={arrowmore} alt="" className="arrow-more" />
               </div>
