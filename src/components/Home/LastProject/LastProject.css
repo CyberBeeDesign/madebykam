@@ -130,6 +130,7 @@
 
 .techno #react {
     color: #09D2F6;
+    border: #09D2F6 2px solid;
 }
 
 @media only screen and (max-width: 768px) {

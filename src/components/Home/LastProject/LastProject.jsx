@@ -58,7 +58,11 @@ const LastProject = () => {
               <div className="lastproject-text-container">
                 <div className="lastproject-text">
                   <h3>PlanPin</h3>
-                  <p>Website design</p>
+                  <div className="techno">
+                    <span id="react">REACT</span>
+                    <span id="css">CSS</span>
+                  </div>
+                  <p>This web application helps travelers plan their trips effortlessly. By entering a destination and travel dates, users get local attractions and a 3-day weather forecast, allowing them to select and organize activities into a personalized travel plan.</p>
                 </div>
                 <img src={arrowmore} alt="" className="arrow-more" />
               </div>
@@ -74,7 +78,12 @@ const LastProject = () => {
               <div className="lastproject-text-container">
                 <div className="lastproject-text">
                   <h3>Cinefy</h3>
-                  <p>Website design</p>
+                  <div className="techno">
+                    <span id="html">HTML</span>
+                    <span id="css">CSS</span>
+                    <span id="javascript">JS</span>
+                  </div>
+                  <p>Cinefy is a web application that lets users explore movies, TV shows, and actors with ease. Similar to IMDb but simpler, it allows users to search titles, view detailed information, and discover trending or popular content through a clean, intuitive interface.</p>
                 </div>
                 <img src={arrowmore} alt="" className="arrow-more" />
               </div>
