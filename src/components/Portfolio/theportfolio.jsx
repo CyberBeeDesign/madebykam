@@ -8,6 +8,7 @@ import ontheroadmockup from "../../assets/Ontheroad-Mockup.png";
 import micasamockup from "../../assets/Micasa-Mockup.png";
 import aromamockup from "../../assets/Aroma-Mockup.png";
 import planpinMockup from "../../assets/PlanPin-Mockup.png";
+import confTicketsGeneratorMockup from "../../../assets/conf-tickets-generator-Mockup.png";
 
 import "./theportfolio.css";
 
@@ -31,6 +32,24 @@ const theportfolio = () => {
             </div>
           </a>
         </div>
+
+        <div className="porfoliocard">
+          <a
+            href="https://conf-tickets-generator.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={confTicketsGeneratorMockup} alt="conf-Tickets-Generator-Mockup" className="Mockup" />
+            <div className="portfolio-text-container">
+              <div className="portfolio-text">
+                <h3>Conference ticket generator</h3>
+                <p>Design & development</p>
+              </div>
+              <img src={arrowmore} alt="" className="arrow-more" />
+            </div>
+          </a>
+        </div>
+
 
         <div className="porfoliocard">
           <a
