@@ -37,6 +37,12 @@
     transition: opacity 0.8s cubic-bezier(.4, 2, .6, 1), transform 0.8s cubic-bezier(.4, 2, .6, 1);
 }
 
+.hero-left-text h1,
+.hero-right-text h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
 .hero-left-text {
     transform: translateX(-80px);
     align-content: center;
@@ -192,6 +198,7 @@
         right: 15%;
     }
 
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -252,5 +259,20 @@
         top: 18%;
         right: 12%;
     }
+
+    .hero-left-text h1,
+    .hero-right-text h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero-left-text p,
+    .hero-right-text p {
+        font-size: 0.874rem;
+        line-height: 1.25rem;
+    }
+
+
+
 
 }
