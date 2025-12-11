@@ -3,12 +3,15 @@
 }
 
 .lastproject {
-    display: flex;
     max-width: 1160px;
+    width: calc(100% - 80px);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
     flex-direction: column;
-    padding: 100px 0;
     margin: 0 auto;
 }
+
 
 .lastproject h2 {
     font-size: 1.5625rem;
@@ -19,24 +22,49 @@
     text-align: center;
 }
 
-.lastprojectcard-box {
+.lastprojectcard-wrapper {
 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
     gap: 20px;
 }
 
-.lastprojectcard {
+
+.lastprojectcard-box {
     display: flex;
-    cursor: pointer;
+    margin: 0 auto;
     flex-direction: column;
-    flex: 1 1 0;
-    min-width: 0;
-    max-width: calc((100% - 40px) / 3);
-    border-radius: 20px;
-    box-shadow: #545456 5px 5px 20px -10px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.cardlastproject span {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+    padding: 40px;
+
+}
+
+.mockup {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: -40px;
+}
+
+.mockup:hover {
+    transform: scale(1.1) rotate(5deg);
     transition: ease-in-out 0.5s;
 }
 
@@ -44,58 +72,6 @@
     transform: scale(1.05);
 }
 
-.Mockup {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-.lastproject-text-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.lastproject-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 10px;
-}
-
-.lastproject-text h3 {
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: #FFC00D;
-    margin: 0;
-}
-
-.lastproject-text p {
-    font-size: 1rem;
-
-    color: #545456;
-    opacity: 0.8;
-    text-align: left;
-}
-
-.arrow-more {
-    cursor: pointer;
-    width: 30px;
-    height: auto;
-    opacity: 0;
-    transition: ease-in-out 0.5s;
-}
-
-.lastprojectcard:hover .arrow-more {
-    opacity: 0.6;
-    transform: scale(1.1);
-}
 
 .techno {
     margin-top: 0.325rem;
