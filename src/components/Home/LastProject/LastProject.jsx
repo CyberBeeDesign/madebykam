@@ -39,9 +39,7 @@ const LastProject = () => {
               alt="weather-now-mockup"
               className="mockup"
               style={{
-                boxShadow: "0 0 20px #3C30D0ff",
-                boxShadow: "0 0 40px #3C30D0ff",
-                boxShadow: "0 0 60px #3C30D0ff",
+                boxShadow: "0 0 20px #3C30D0ff, 0 0 40px #3C30D0ff, 0 0 60px #3C30D0ff",
               }}
             />
           </a>
@@ -77,9 +75,7 @@ const LastProject = () => {
               alt="plan-pin-mockup"
               className="mockup"
               style={{
-                boxShadow: "0 0 20px #acd0d4ff",
-                boxShadow: "0 0 40px #acd0d4ff",
-                boxShadow: "0 0 60px #acd0d4ff",
+                boxShadow: "0 0 20px #acd0d4ff, 0 0 40px #acd0d4ff, 0 0 60px #acd0d4ff",
               }}
             />
           </a>
