@@ -7,9 +7,9 @@ import cinefy from "../../assets/cinefy.png";
 import confticketgenerator from "../../assets/conf-tickets-generator.png";
 import coffeebean from "../../assets/coffeebean.png";
 import ontheroad from "../../assets/ontheroad.png";
-import boxer from "../../assets/boxer.png";
-import micasa from "../../assets/micasa.png";
-import aroma from "../../assets/aroma.png";
+import boxer from "../../assets/Boxer.png";
+import micasa from "../../assets/Micasa.png";
+import aroma from "../../assets/Aroma.png";
 import "./theportfolio.css";
 
 const projects = [
