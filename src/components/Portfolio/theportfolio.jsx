@@ -7,6 +7,9 @@ import cinefy from "../../assets/cinefy.png";
 import confticketgenerator from "../../assets/conf-tickets-generator.png";
 import coffeebean from "../../assets/coffeebean.png";
 import ontheroad from "../../assets/ontheroad.png";
+import boxer from "../../assets/boxer.png";
+import micasa from "../../assets/micasa.png";
+import aroma from "../../assets/aroma.png";
 import "./theportfolio.css";
 
 const projects = [
@@ -85,7 +88,45 @@ const projects = [
     bg: "#2a1901ff",
     boxShadow: "0 0 20px #d78930ff, 0 0 40px #d78930ff, 0 0 60px #d78930ff",
     details:
-"I created this design to sharpen my eye for layout, color harmony, and visual storytelling. It helped me practice combining personality-driven illustrations, cohesive color palettes, and strong typography to craft a layout that feels engaging, modern, and easy to navigate."  },
+"I created this design to sharpen my eye for layout, color harmony, and visual storytelling. It helped me practice combining personality-driven illustrations, cohesive color palettes, and strong typography to craft a layout that feels engaging, modern, and easy to navigate."  
+},
+{
+    title: "MICASA",
+    live: "https://dribbble.com/shots/23080336-Real-Estate-Agency-Landing-Page",
+    task: "Web Design",
+    description:
+      "A landing page design for a real estate agency showcasing properties and services.",
+    img: micasa,
+    bg: "#39a5dbff",
+    boxShadow: "0 0 20px #95bfd3ff, 0 0 40px #95bfd3ff, 0 0 60px #95bfd3ff",
+    details:
+"I worked on this design to improve how I present information cleanly and professionally. It helped me practice layout balance, visual hierarchy, and creating a trustworthy look that fits the real estate industry."  
+},
+{
+    title: "Aroma",
+    live: "https://dribbble.com/shots/23035047-Italian-Restaurant-Landing-page",
+    task: "Web Design",
+    description:
+      "A landing page design for an Italian restaurant that highlights rich flavors, warm colors, and an inviting dining atmosphere.",
+    img: aroma,
+    bg: "#b1784dff",
+    boxShadow: "0 0 20px #e7ccb8ff, 0 0 40px #e7ccb8ff, 0 0 60px #e7ccb8ff",
+    details: 'I designed this project to improve how I balance visuals, spacing, and typography in a food-focused layout. It helped me practice creating a warm, appetizing aesthetic, organizing content clearly, and guiding the user’s attention through images, menus, and call-to-action elements.'
+  },
+  {
+    title: "BOXER",
+    live: "https://dribbble.com/shots/24137398-Boxing-Gym",
+    task: "Web Development",
+    description:
+      "A landing page design for a boxing gym offering fitness boxing, kids’ classes, and amateur training.",
+    img: boxer,
+    bg: "#143A96",
+    boxShadow: "0 0 20px #849ad3ff, 0 0 40px #849ad3ff, 0 0 60px #849ad3ff",
+    details:
+      "I created this design to practice building a strong, high-impact visual style. It helped me work on bold layouts, dynamic typography, and clear section structure to highlight different programs while keeping the page easy to navigate.",
+  },
+   
+
 ];
 
 const theportfolio = () => {
